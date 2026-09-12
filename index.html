@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABHINAV DETECTOR - Scan for Illegal Files</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 ABHINAV DETECTOR</h1>
+            <p>Advanced File Scanner - Detect Illegal & Suspicious Files in Your Repository</p>
+        </header>
+
+        <main>
+            <section class="permission-section">
+                <h2>Step 1: Request Permission</h2>
+                <p>Grant permission to scan your repository files</p>
+                <button id="permissionBtn" class="btn btn-primary">📋 Request Permission</button>
+                <div id="permissionStatus" class="status"></div>
+            </section>
+
+            <section class="scan-section">
+                <h2>Step 2: Check Files</h2>
+                <p>Scan all files for illegal content (Free Fire Max, malware, hacks, etc.)</p>
+                <button id="scanBtn" class="btn btn-success" disabled>🔎 Check All Files</button>
+                <div id="scanStatus" class="status"></div>
+            </section>
+
+            <section class="results-section" id="resultsSection" style="display: none;">
+                <h2>Scan Results</h2>
+                <div id="resultsContainer"></div>
+            </section>
+
+            <section class="download-section" id="downloadSection" style="display: none;">
+                <h2>Download Report & App</h2>
+                <div class="download-options">
+                    <button id="downloadReportBtn" class="btn btn-info">📄 Download TXT Report</button>
+                    <button id="downloadPyBtn" class="btn btn-warning">🐍 Download Python App</button>
+                    <button id="downloadJsonBtn" class="btn btn-secondary">📋 Download JSON Data</button>
+                </div>
+            </section>
+
+            <section class="stats-section" id="statsSection" style="display: none;">
+                <h2>Scan Statistics</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>Total Files Scanned</h3>
+                        <p id="totalFiles">0</p>
+                    </div>
+                    <div class="stat-card warning">
+                        <h3>Illegal Files Found</h3>
+                        <p id="illegalCount">0</p>
+                    </div>
+                    <div class="stat-card success">
+                        <h3>Safe Files</h3>
+                        <p id="safeCount">0</p>
+                    </div>
+                    <div class="stat-card info">
+                        <h3>Scan Time</h3>
+                        <p id="scanTime">0s</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 ABHINAV DETECTOR | Repository: abhinavshiva36-hue/Checking</p>
+            <p>Created by: abhinavshiva36-hue</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
