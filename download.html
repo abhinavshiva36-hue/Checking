@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABHINAV DETECTOR - Download</title>
+    <link rel="stylesheet" href="download-style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 ABHINAV DETECTOR</h1>
+            <p>Advanced File Scanner - Detect Illegal & Suspicious Files</p>
+        </header>
+
+        <main>
+            <section class="download-main-section">
+                <h2>📥 Download Application</h2>
+                <p style="font-size: 1.2em; color: #059669; margin-bottom: 30px; font-weight: 600;">
+                    ✅ Choose your preferred version below
+                </p>
+
+                <div class="download-grid">
+                    <!-- Web Version -->
+                    <div class="download-card">
+                        <div class="card-icon">🌐</div>
+                        <h3>Web Version</h3>
+                        <p class="card-description">Run directly in your browser. No installation needed.</p>
+                        <div class="features-list">
+                            <div class="feature">✓ Real-time scanning</div>
+                            <div class="feature">✓ GitHub API integration</div>
+                            <div class="feature">✓ Interactive UI</div>
+                            <div class="feature">✓ Multiple export formats</div>
+                        </div>
+                        <a href="app/index.html" class="btn btn-primary btn-block">🚀 Open Web App</a>
+                    </div>
+
+                    <!-- Python Version -->
+                    <div class="download-card">
+                        <div class="card-icon">🐍</div>
+                        <h3>Python Version</h3>
+                        <p class="card-description">Standalone CLI tool. Run locally on your system.</p>
+                        <div class="features-list">
+                            <div class="feature">✓ No dependencies</div>
+                            <div class="feature">✓ Local file scanning</div>
+                            <div class="feature">✓ Command-line interface</div>
+                            <div class="feature">✓ JSON & TXT reports</div>
+                        </div>
+                        <button onclick="downloadPythonApp()" class="btn btn-warning btn-block">⬇️ Download Python App</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="instructions-section">
+                <h2>📖 How to Use</h2>
+                <div class="instructions-grid">
+                    <div class="instruction-card">
+                        <div class="step-number">1</div>
+                        <h3>Web Version</h3>
+                        <ol>
+                            <li>Click "Open Web App" button above</li>
+                            <li>Click "Request Permission"</li>
+                            <li>Enter your GitHub Personal Access Token</li>
+                            <li>Click "Check All Files" to scan</li>
+                            <li>Download reports in TXT, JSON, or Python format</li>
+                        </ol>
+                    </div>
+                    <div class="instruction-card">
+                        <div class="step-number">2</div>
+                        <h3>Python Version</h3>
+                        <ol>
+                            <li>Click "Download Python App" button above</li>
+                            <li>Requires: Python 3.6+</li>
+                            <li>Run: <code>python abhinav_detector.py</code></li>
+                            <li>Or: <code>python abhinav_detector.py /path -a</code></li>
+                            <li>Reports saved as JSON and TXT</li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <section class="commands-section">
+                <h2>⚙️ Python App Commands</h2>
+                <div class="commands-box">
+                    <div class="command">
+                        <span class="cmd-input">python abhinav_detector.py</span>
+                        <span class="cmd-desc">Scan current directory</span>
+                    </div>
+                    <div class="command">
+                        <span class="cmd-input">python abhinav_detector.py /path/to/scan</span>
+                        <span class="cmd-desc">Scan specific directory</span>
+                    </div>
+                    <div class="command">
+                        <span class="cmd-input">python abhinav_detector.py -a</span>
+                        <span class="cmd-desc">Auto-save JSON and TXT reports</span>
+                    </div>
+                    <div class="command">
+                        <span class="cmd-input">python abhinav_detector.py -q</span>
+                        <span class="cmd-desc">Quiet mode (no console output)</span>
+                    </div>
+                    <div class="command">
+                        <span class="cmd-input">python abhinav_detector.py -j report.json</span>
+                        <span class="cmd-desc">Save JSON report</span>
+                    </div>
+                    <div class="command">
+                        <span class="cmd-input">python abhinav_detector.py -t report.txt</span>
+                        <span class="cmd-desc">Save text report</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features-section">
+                <h2>🎯 Features</h2>
+                <div class="features-grid">
+                    <div class="feature-box">
+                        <div class="feature-icon">🔍</div>
+                        <h3>Advanced Scanning</h3>
+                        <p>Detects Free Fire Max, malware, hacks, cracks, and suspicious executables</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon">📊</div>
+                        <h3>Detailed Reports</h3>
+                        <p>Get comprehensive statistics and file-by-file breakdown</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon">💾</div>
+                        <h3>Multiple Formats</h3>
+                        <p>Export reports as JSON, TXT, or view in real-time</p>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon">🔐</div>
+                        <h3>Secure</h3>
+                        <p>No data uploaded. All processing done locally</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="github-section">
+                <h2>🔗 Repository Information</h2>
+                <div class="repo-info-box">
+                    <p><strong>Owner:</strong> abhinavshiva36-hue</p>
+                    <p><strong>Repository:</strong> Checking</p>
+                    <p><strong>URL:</strong> <a href="https://github.com/abhinavshiva36-hue/Checking" target="_blank">https://github.com/abhinavshiva36-hue/Checking</a></p>
+                    <p><strong>Version:</strong> 1.0</p>
+                    <p><strong>Files:</strong> Python App + Web App</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 ABHINAV DETECTOR | Created by abhinavshiva36-hue</p>
+            <p>GitHub: <a href="https://github.com/abhinavshiva36-hue" target="_blank">abhinavshiva36-hue</a></p>
+        </footer>
+    </div>
+
+    <script>
+        function downloadPythonApp() {
+            const pythonCode = `#!/usr/bin/env python3
+\"\"\"ABHINAV DETECTOR - Python Version
+Advanced File Scanner for Illegal and Suspicious Files
+Repository: https://github.com/abhinavshiva36-hue/Checking
+Created by: abhinavshiva36-hue
+\"\"\"
+
+import os
+import json
+import argparse
+import sys
+from datetime import datetime
+from pathlib import Path
+
+ILLEGAL_KEYWORDS = [
+    'free fire max', 'freefiremax', 'ffmax', 'freefire', 'free fire',
+    'malware', 'trojan', 'virus', 'ransomware', 'spyware',
+    'hack', 'exploit', 'backdoor', 'keylogger', 'worm',
+    '.exe', '.bat', '.cmd', '.scr', '.vbs', '.ps1', '.com',
+    'game mod', 'crack', 'keygen', 'serial key', 'warez',
+    'phishing', 'adware', 'rootkit', 'botnet', 'cryptolocker'
+]
+
+class AbiNavDetector:
+    def __init__(self, root_path='.'):
+        self.root_path = Path(root_path)
+        self.results = {
+            'detector': 'ABHINAV DETECTOR',
+            'version': '1.0',
+            'timestamp': datetime.now().isoformat(),
+            'repository': {
+                'owner': 'abhinavshiva36-hue',
+                'name': 'Checking',
+                'url': 'https://github.com/abhinavshiva36-hue/Checking'
+            },
+            'statistics': {
+                'totalFilesScanned': 0,
+                'illegalFilesFound': 0,
+                'safeFiles': 0,
+                'detectionRate': 0,
+                'scanDuration': 0
+            },
+            'illegal_files': [],
+            'safe_files': [],
+            'createdBy': 'abhinavshiva36-hue'
+        }
+        self.start_time = datetime.now()
+    
+    def is_illegal_file(self, filename):
+        filename_lower = filename.lower()
+        return any(keyword in filename_lower for keyword in ILLEGAL_KEYWORDS)
+    
+    def get_illegal_reason(self, filename):
+        filename_lower = filename.lower()
+        for keyword in ILLEGAL_KEYWORDS:
+            if keyword in filename_lower:
+                return f\"Contains keyword: \\\\\\\"{keyword}\\\\\\\"\"
+        return \"Suspicious file detected\"
+    
+    def scan_file(self, file_path):
+        try:
+            file_size = file_path.stat().st_size
+            is_illegal = self.is_illegal_file(file_path.name)
+            result = {
+                'name': str(file_path.relative_to(self.root_path)),
+                'size': file_size,
+                'size_kb': round(file_size / 1024, 2),
+                'is_illegal': is_illegal,
+                'reason': self.get_illegal_reason(file_path.name) if is_illegal else 'Safe file',
+                'scanned_at': datetime.now().isoformat()
+            }
+            return result
+        except Exception as e:
+            print(f\"Error scanning {file_path}: {e}\")
+            return None
+    
+    def scan_directory(self):
+        print(f\"\\n{'='*70}\")
+        print(f\"🔍 ABHINAV DETECTOR v1.0 - Starting File Scan\")
+        print(f\"{'='*70}\")
+        print(f\"📁 Scanning: {self.root_path.absolute()}\\n\")
+        
+        for file_path in self.root_path.rglob('*'):
+            if file_path.is_file():
+                result = self.scan_file(file_path)
+                if result:
+                    self.results['statistics']['totalFilesScanned'] += 1
+                    if result['is_illegal']:
+                        self.results['illegal_files'].append(result)
+                        self.results['statistics']['illegalFilesFound'] += 1
+                        print(f\"ILLEGAL: {result['name']}\")
+                    else:
+                        self.results['safe_files'].append(result)
+                        self.results['statistics']['safeFiles'] += 1
+        
+        total = self.results['statistics']['totalFilesScanned']
+        illegal = self.results['statistics']['illegalFilesFound']
+        end_time = datetime.now()
+        duration = (end_time - self.start_time).total_seconds()
+        
+        self.results['statistics']['scanDuration'] = round(duration, 2)
+        if total > 0:
+            self.results['statistics']['detectionRate'] = round((illegal / total) * 100, 2)
+    
+    def print_report(self):
+        stats = self.results['statistics']
+        print(f\"\\n{'='*70}\")
+        print(\"ABHINAV DETECTOR - SCAN REPORT\")
+        print(f\"{'='*70}\\n\")
+        print(f\"STATISTICS\\n\" + \"-\" * 70)
+        print(f\"Total Files Scanned:     {stats['totalFilesScanned']}\")
+        print(f\"Illegal Files Found:     {stats['illegalFilesFound']}\")
+        print(f\"Safe Files:              {stats['safeFiles']}\")
+        print(f\"Detection Rate:          {stats['detectionRate']}%\\n\")
+        
+        if stats['illegalFilesFound'] > 0:
+            print(f\"ILLEGAL FILES DETECTED ({stats['illegalFilesFound']})\\n\" + \"-\" * 70)
+            for i, file in enumerate(self.results['illegal_files'], 1):
+                print(f\"\\n{i}. {file['name']}\")
+                print(f\"   Reason: {file['reason']}\")
+                print(f\"   Size: {file['size_kb']} KB\")
+            print()
+        
+        print(f\"SAFE FILES ({stats['safeFiles']})\\n\" + \"-\" * 70)
+        safe_display = min(20, stats['safeFiles'])
+        for i, file in enumerate(self.results['safe_files'][:safe_display], 1):
+            print(f\"{i}. {file['name']}\")
+        if stats['safeFiles'] > 20:
+            print(f\"... and {stats['safeFiles'] - 20} more safe files\")
+        print(f\"\\n{'='*70}\\nRepository: https://github.com/abhinavshiva36-hue/Checking\\n{'='*70}\\n\")
+    
+    def save_report_json(self, output_file='abhinav_detector_report.json'):
+        try:
+            with open(output_file, 'w') as f:
+                json.dump(self.results, f, indent=2)
+            print(f\"JSON Report saved: {output_file}\")
+            return True
+        except Exception as e:
+            print(f\"Error saving JSON report: {e}\")
+            return False
+
+def main():
+    parser = argparse.ArgumentParser(description='ABHINAV DETECTOR - Scan for Illegal Files')
+    parser.add_argument('path', nargs='?', default='.', help='Path to scan')
+    parser.add_argument('-j', '--json', metavar='FILE', help='Save JSON report')
+    parser.add_argument('-t', '--txt', metavar='FILE', help='Save text report')
+    parser.add_argument('-a', '--auto', action='store_true', help='Auto-save reports')
+    parser.add_argument('-q', '--quiet', action='store_true', help='Quiet mode')
+    
+    args = parser.parse_args()
+    
+    try:
+        detector = AbiNavDetector(args.path)
+        detector.scan_directory()
+        if not args.quiet:
+            detector.print_report()
+        if args.auto:
+            detector.save_report_json('abhinav_detector_report.json')
+        elif args.json:
+            detector.save_report_json(args.json)
+        return detector.results['statistics']['illegalFilesFound']
+    except Exception as e:
+        print(f\"Error: {e}\")
+        return -1
+
+if __name__ == '__main__':
+    exit_code = main()
+    sys.exit(exit_code if exit_code != -1 else 1)
+`;
+
+            const element = document.createElement('a');
+            element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(pythonCode));
+            element.setAttribute('download', 'abhinav_detector.py');
+            element.style.display = 'none';
+            document.body.appendChild(element);
+            element.click();
+            document.body.removeChild(element);
+            
+            showNotification('✅ abhinav_detector.py downloaded successfully!');
+        }
+        
+        function showNotification(message) {
+            const notification = document.createElement('div');
+            notification.style.cssText = `
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                background: #10b981;
+                color: white;
+                padding: 15px 25px;
+                border-radius: 8px;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+                font-weight: 600;
+                animation: slideInUp 0.3s ease;
+                z-index: 1000;
+            `;
+            notification.textContent = message;
+            document.body.appendChild(notification);
+            
+            setTimeout(() => {
+                notification.style.animation = 'slideOutDown 0.3s ease';
+                setTimeout(() => notification.remove(), 300);
+            }, 3000);
+        }
+        
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes slideInUp {
+                from { transform: translateY(100px); opacity: 0; }
+                to { transform: translateY(0); opacity: 1; }
+            }
+            @keyframes slideOutDown {
+                from { transform: translateY(0); opacity: 1; }
+                to { transform: translateY(100px); opacity: 0; }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
